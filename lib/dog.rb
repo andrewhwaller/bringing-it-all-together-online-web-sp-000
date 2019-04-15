@@ -10,7 +10,7 @@ class Dog
   def self.create_table
     sql = <<-SQL
     CREATE TABLE IF NOT EXISTS dogs (
-      id INTEGER PRIMARY KEY, 
+      id INTEGER PRIMARY KEY,
       name TEXT,
       breed TEXT
     );
@@ -26,7 +26,7 @@ class Dog
   end
 
   def create
-    
+
   end
 
   def self.find_by_id
@@ -34,7 +34,7 @@ class Dog
   end
 
   def self.find_or_create_by
-    
+
   end
 
   def new_from_db
@@ -46,6 +46,6 @@ class Dog
   end
 
   def update
-    
+
   end
 end
